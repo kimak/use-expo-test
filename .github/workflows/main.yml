@@ -8,7 +8,7 @@ jobs:
         uses: actions/checkout@1.0.0
       - name: install
         uses: actions/npm@v2.0.0
-        run: npm ci
+        runs: npm ci
       - name: test
       - name: publish
         uses: expo/expo-github-action@refactor/update-action
